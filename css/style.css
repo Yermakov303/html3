@@ -2,14 +2,22 @@
     margin: 0;
     padding: 0:
 }
+body  {
+    background-color: #f9f9f9;
+    height: 900px;
+    margin: 0px 154px;
+    background: ffffff;
+}
 .logo{
     margin: 40px 48px 0px 46px;
 }
-body  {
+.center{
     width: 1060px;
-    height: 950px;
-    margin: 0px 154px;
-    background: ffffff;
+    height: 900px; 
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+   
 }
 
 .top_menu ul {
@@ -33,13 +41,16 @@ body  {
      color: white;
      background: #363636;
 }
-.sidebar ul{
+.sidebar{
+width: 25%;
     float: left;
-    width: 235px;
-    margin: 0px 55px 40px 46px;
+    margin: 0px 28px 40px 46px;
+        }
+.sidebar ul{
+   width: 240px;
     padding: 0;
-    list-style: none; 
-}
+    list-style: none;
+    }
 .sidebar  a {
   font-size: 14px;
   display: block;
@@ -54,23 +65,29 @@ body  {
     color: black;
     background: #f9f9f9;
 }
+.content {
+    float: left;
+    width: 65%;
+    margin-bottom: 40px;
+    }
 .content p{
-    margin: 20px 20px 20px 350px;
-    text-align: left;
-    width: 660px;
+    margin: 25px 5px;
 }
-
-.footer_menu ul {
-  width: 970px;
-  margin: 40px 48px 40px 46px;
+footer{
+clear: both;
+margin: 0px 48px 0px 46px;
+width: 970px;
+    
+}
+footer ul {
   list-style: none; 
   padding: 0;
   background: #e1e1e1;
 }
- .footer_menu li  {
+ footer li  {
      display: inline-block;
 }
-.footer_menu a {
+footer a {
   padding: 10px 70px 10px 20px;
   display: block;
   background: #e1e1e1;
@@ -78,8 +95,8 @@ body  {
   text-decoration: none;
 
 }
- .footer_menu a:hover {
-     text-decoration: underline;
+ footer a:hover {
+   text-decoration: underline;
       }
 #sign{
     padding-left: 220px;
